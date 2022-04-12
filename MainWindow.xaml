@@ -1,0 +1,17 @@
+﻿<Window x:Class="PublisherSubscriberDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PublisherSubscriberDemo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="100" Width="400">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button Grid.Column="0" x:Name="OpenPublisher" Click="OpenPublisher_Click">Open PublisherWindow</Button>
+        <Button Grid.Column="1" x:Name="OpenSubscriber" Click="OpenSubscriber_Click" >Open subscriber</Button>
+    </Grid>
+</Window>
